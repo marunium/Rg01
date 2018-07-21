@@ -5,6 +5,7 @@ $ cat .gitignore
 /Rg01/Build/
 /Rg01/Builds/
 /Rg01/ProjectSettings/
+/Rg01/.vs/
 /Rg01/Assets/AssetStoreTools*
 
 # Visual Studio 2015 cache directory

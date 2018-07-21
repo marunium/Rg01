@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657886, g: 0.4964127, b: 0.57481724, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -255,4 +255,67 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &584106976
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 584106978}
+  - component: {fileID: 584106977}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &584106977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 584106976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 797ceeb16dfc3b44abb8e118d587bfa3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stagePanelsRoot: {fileID: 1089602803096124, guid: 986f62ee69689324b8e2a35af75423c8,
+    type: 2}
+  prefabPanelError: {fileID: 1089602803096124, guid: 986f62ee69689324b8e2a35af75423c8,
+    type: 2}
+  prefabPanelNone: {fileID: 1089602803096124, guid: 986f62ee69689324b8e2a35af75423c8,
+    type: 2}
+  prefabPanelJumpUp: {fileID: 1089602803096124, guid: 986f62ee69689324b8e2a35af75423c8,
+    type: 2}
+  prefabPanelFloor: {fileID: 1089602803096124, guid: 986f62ee69689324b8e2a35af75423c8,
+    type: 2}
+  prefabPanelGoal: {fileID: 1495682445065960, guid: d921c9360fa892442adc6f473906675e,
+    type: 2}
+  prefabPanelStart: {fileID: 1701198519221060, guid: 9d38c2fff1fb54e41b480ede991c46ab,
+    type: 2}
+  prefabPanelMax: {fileID: 1089602803096124, guid: 986f62ee69689324b8e2a35af75423c8,
+    type: 2}
+  prefabStartField: {fileID: 1701198519221060, guid: 9d38c2fff1fb54e41b480ede991c46ab,
+    type: 2}
+  prefabGoalField: {fileID: 1495682445065960, guid: d921c9360fa892442adc6f473906675e,
+    type: 2}
+  player: {fileID: 1089602803096124, guid: 986f62ee69689324b8e2a35af75423c8, type: 2}
+  prefabStartLine: {fileID: 1089602803096124, guid: 986f62ee69689324b8e2a35af75423c8,
+    type: 2}
+--- !u!4 &584106978
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 584106976}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

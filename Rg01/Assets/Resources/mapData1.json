@@ -1,0 +1,12 @@
+{  "version" :0, "width" :2, "depth" :4
+	 "chips" :[
+		{  "name"  : "PanelGoal",},
+		{  "name"  : "PanelGoal",},
+		{  "name"  : "PanelGoal",},
+		{  "name"  : "PanelGoal",},
+		{  "name"  : "PanelGoal",},
+		{  "name"  : "PanelGoal",},
+		{  "name"  : "PanelGoal",},
+		{  "name"  : "PanelGoal",},
+	]
+}
