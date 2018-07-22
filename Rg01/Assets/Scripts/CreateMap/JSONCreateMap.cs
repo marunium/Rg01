@@ -13,6 +13,7 @@ public class JSONCreateMap : MonoBehaviour {
 	// マップチップデータ一覧
 	private enum MapChip{
 		PanelNone,
+		PanelFloor,
 		PanelJumpUp,
 		PanelGoal,
 		PanelStart,
@@ -251,6 +252,15 @@ public class JSONCreateMap : MonoBehaviour {
 				break;
 			case MapChip.PanelJumpUp:
 				result = prefabPanelJumpUp;
+				break;
+			case MapChip.PanelGoal:
+				result = prefabPanelGoal;
+				break;
+			case MapChip.PanelStart:
+				result = prefabPanelStart;
+				break;
+			case MapChip.PanelFloor: // @todo delete...
+				result = prefabPanelFloor;
 				break;
 			case MapChip.PanelMax:
 			default:
