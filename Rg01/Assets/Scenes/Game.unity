@@ -283,8 +283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 797ceeb16dfc3b44abb8e118d587bfa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stagePanelsRoot: {fileID: 1089602803096124, guid: 986f62ee69689324b8e2a35af75423c8,
-    type: 2}
+  stagePanelsRoot: {fileID: 584106976}
   prefabPanelError: {fileID: 1089602803096124, guid: 986f62ee69689324b8e2a35af75423c8,
     type: 2}
   prefabPanelNone: {fileID: 1089602803096124, guid: 986f62ee69689324b8e2a35af75423c8,
