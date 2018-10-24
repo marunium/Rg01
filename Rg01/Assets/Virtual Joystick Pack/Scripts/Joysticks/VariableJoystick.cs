@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
+using UniRx;
+
 
 public class VariableJoystick : Joystick
 {
@@ -8,6 +10,11 @@ public class VariableJoystick : Joystick
     public Vector2 fixedScreenPosition;
 
     Vector2 joystickCenter = Vector2.zero;
+
+	public bool isJoysticState = false;
+	public Subject<bool> JoysticSubject = new Subject<bool>();
+
+	public Vector2 JoystickPos { get { return handle.anchoredPosition; } }
 
     void Start()
     {
@@ -32,7 +39,7 @@ public class VariableJoystick : Joystick
         inputVector = (direction.magnitude > background.sizeDelta.x / 2f) ? direction.normalized : direction / (background.sizeDelta.x / 2f);
         ClampJoystick();
         handle.anchoredPosition = (inputVector * background.sizeDelta.x / 2f) * handleLimit;
-    }
+	}
 
     public override void OnPointerDown(PointerEventData eventData)
     {
@@ -43,7 +50,9 @@ public class VariableJoystick : Joystick
             handle.anchoredPosition = Vector2.zero;
             joystickCenter = eventData.position;
         }
-    }
+		isJoysticState = true;
+		JoysticSubject.OnNext(true);
+	}
 
     public override void OnPointerUp(PointerEventData eventData)
     {
@@ -53,9 +62,11 @@ public class VariableJoystick : Joystick
         }
         inputVector = Vector2.zero;
         handle.anchoredPosition = Vector2.zero;
-    }
+		isJoysticState = false;
+		JoysticSubject.OnNext(false);
+	}
 
-    void OnFixed()
+	void OnFixed()
     {
         joystickCenter = fixedScreenPosition;
         background.gameObject.SetActive(true);
