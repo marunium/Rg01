@@ -16,8 +16,10 @@ public class PositionJoystick : MonoBehaviour {
 	private void Start()
 	{
 		VariableJoystick.JoysticStateAsObservable()
+			.DistinctUntilChanged()
 			.Subscribe(isMove=> {
 				ModelAnimator.SetBool("Run", isMove);
+				Debug.Log("RUn");
 			})
 			.AddTo(this);
 	}
@@ -31,7 +33,15 @@ public class PositionJoystick : MonoBehaviour {
 			pos.z += VariableJoystick.JoystickPos.y * (0.0001f * PlayerPrefs.GetInt("speed_offset", 1));
 			Model.transform.position = pos;
 
-			bool isMove = VariableJoystick.JoystickPos != Vector2.zero;
+
+			//var r = Mathf.Atan2(VariableJoystick.JoystickPos.y, VariableJoystick.JoystickPos.x);
+			//var rote = Model.transform.rotation;
+			//rote.y = r;
+
+			var direction = new Vector3(VariableJoystick.JoystickPos.x, 0, VariableJoystick.JoystickPos.y); 
+
+			Model.transform.rotation = Quaternion.LookRotation(direction);
+
 		}
 	}
 }

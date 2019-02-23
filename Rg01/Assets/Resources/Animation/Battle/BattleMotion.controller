@@ -45,12 +45,12 @@ AnimatorStateTransition:
   serializedVersion: 3
   m_TransitionDuration: 0.25
   m_TransitionOffset: 0
-  m_ExitTime: 0.75
+  m_ExitTime: 1
   m_HasExitTime: 0
   m_HasFixedDuration: 1
-  m_InterruptionSource: 0
+  m_InterruptionSource: 4
   m_OrderedInterruption: 1
-  m_CanTransitionToSelf: 1
+  m_CanTransitionToSelf: 0
 --- !u!1101 &1101309513635461992
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -69,12 +69,12 @@ AnimatorStateTransition:
   serializedVersion: 3
   m_TransitionDuration: 0.25
   m_TransitionOffset: 0
-  m_ExitTime: 0.75
+  m_ExitTime: 1
   m_HasExitTime: 0
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
-  m_CanTransitionToSelf: 1
+  m_CanTransitionToSelf: 0
 --- !u!1102 &1102416481017370830
 AnimatorState:
   serializedVersion: 5
@@ -122,7 +122,7 @@ AnimatorState:
   m_Motion: {fileID: 7400000, guid: 92b12d98d90dae44fadf4c9df8c09c65, type: 2}
   m_Tag: 
   m_SpeedParameter: 
-  m_MirrorParameter: 
+  m_MirrorParameter: Run
   m_CycleOffsetParameter: 
   m_TimeParameter: 
 --- !u!1107 &1107402463155847268
