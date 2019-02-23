@@ -1,9 +1,7 @@
 fileFormatVersion: 2
 guid: 15c970f7851e295469699d75a3dd0197
-timeCreated: 1539365278
-licenseType: Free
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: b_collar
     100002: b_hair_a01
@@ -30,103 +28,111 @@ ModelImporter:
     100044: b_mant02
     100046: b_mant03
     100048: b_mant04
-    100050: belt
-    100052: body
-    100054: //RootNode
-    100056: chr0001_mesh
-    100058: f_hair01
-    100060: f_hair02
-    100062: f_hair03
-    100064: f_hair04
-    100066: f_hair05
-    100068: head
-    100070: holster
-    100072: joint
-    100074: l_arm01
-    100076: l_arm02
-    100078: l_arm_sub
-    100080: l_armarmor
-    100082: l_breast
-    100084: l_collar
-    100086: l_foot
-    100088: l_hair_a01
-    100090: l_hair_a02
-    100092: l_hair_b01
-    100094: l_hair_b02
-    100096: l_hair_b03
-    100098: l_hand
-    100100: l_index01
-    100102: l_index02
-    100104: l_index03
-    100106: l_leg01
-    100108: l_leg02
-    100110: l_mant01
-    100112: l_mant02
-    100114: l_mant03
-    100116: l_mant04
-    100118: l_mant05
-    100120: l_mant06
-    100122: l_mant07
-    100124: l_mant08
-    100126: l_middle01
-    100128: l_middle02
-    100130: l_middle03
-    100132: l_pinky01
-    100134: l_pinky02
-    100136: l_pinky03
-    100138: l_ring01
-    100140: l_ring02
-    100142: l_ring03
-    100144: l_shoulder
-    100146: l_thumb01
-    100148: l_thumb02
-    100150: l_thumb03
-    100152: l_toe
-    100154: mant
-    100156: mesh
-    100158: neck
-    100160: outline
-    100162: r_arm01
-    100164: r_arm02
-    100166: r_arm_sub
-    100168: r_breast
-    100170: r_collar
-    100172: r_foot
-    100174: r_hair_a01
-    100176: r_hair_a02
-    100178: r_hair_b01
-    100180: r_hair_b02
-    100182: r_hair_b03
-    100184: r_hand
-    100186: r_index01
-    100188: r_index02
-    100190: r_index03
-    100192: r_leg01
-    100194: r_leg02
-    100196: r_middle01
-    100198: r_middle02
-    100200: r_middle03
-    100202: r_pinky01
-    100204: r_pinky02
-    100206: r_pinky03
-    100208: r_ring01
-    100210: r_ring02
-    100212: r_ring03
-    100214: r_shoulder
-    100216: r_thumb01
-    100218: r_thumb02
-    100220: r_thumb03
-    100222: r_toe
-    100224: sheath01
-    100226: sheath02
-    100228: spine01
-    100230: spine02
-    100232: spine03
-    100234: weapon_a01
-    100236: weapon_b01
-    100238: weapon_b02
-    100240: weapon_b03
-    100242: weapon_c01
+    100050: b_mant05
+    100052: b_mant06
+    100054: belt
+    100056: body
+    100058: body_COL
+    100060: //RootNode
+    100062: chr0001_mesh
+    100064: EFF_01
+    100066: EFF_02
+    100068: EFF_03
+    100070: EFF_04
+    100072: f_hair01
+    100074: f_hair02
+    100076: f_hair03
+    100078: f_hair04
+    100080: f_hair05
+    100082: head
+    100084: HEFF_01
+    100086: holster
+    100088: joint
+    100090: l_arm01
+    100092: l_arm02
+    100094: l_arm_sub
+    100096: l_armmant
+    100098: l_breast
+    100100: l_collar
+    100102: l_foot
+    100104: l_hair_a01
+    100106: l_hair_a02
+    100108: l_hair_b01
+    100110: l_hair_b02
+    100112: l_hair_b03
+    100114: l_hand
+    100116: l_hand_w
+    100118: l_index01
+    100120: l_index02
+    100122: l_index03
+    100124: l_leg01
+    100126: l_leg02
+    100128: l_middle01
+    100130: l_middle02
+    100132: l_middle03
+    100134: l_pinky01
+    100136: l_pinky02
+    100138: l_pinky03
+    100140: l_ring01
+    100142: l_ring02
+    100144: l_ring03
+    100146: l_shoulder
+    100148: l_shoulder_armmor
+    100150: l_thumb01
+    100152: l_thumb02
+    100154: l_thumb03
+    100156: l_toe
+    100158: mesh
+    100160: neck
+    100162: outline
+    100164: r_arm01
+    100166: r_arm02
+    100168: r_arm_sub
+    100170: r_armmant
+    100172: r_breast
+    100174: r_collar
+    100176: r_foot
+    100178: r_hair_a01
+    100180: r_hair_a02
+    100182: r_hair_b01
+    100184: r_hair_b02
+    100186: r_hair_b03
+    100188: r_hand
+    100190: r_hand_w
+    100192: r_index01
+    100194: r_index02
+    100196: r_index03
+    100198: r_leg01
+    100200: r_leg02
+    100202: r_middle01
+    100204: r_middle02
+    100206: r_middle03
+    100208: r_pinky01
+    100210: r_pinky02
+    100212: r_pinky03
+    100214: r_ring01
+    100216: r_ring02
+    100218: r_ring03
+    100220: r_shoulder
+    100222: r_shoulder_armmor
+    100224: r_thumb01
+    100226: r_thumb02
+    100228: r_thumb03
+    100230: r_toe
+    100232: sheath01
+    100234: sheath02
+    100236: spine01
+    100238: spine02
+    100240: spine03
+    100242: weapon_A
+    100244: weapon_B
+    100246: weapon_C
+    100248: WEP_L
+    100250: WEP_R
+    100252: WEP_W
+    100254: WEP_w01
+    100256: WEP_w02
+    100258: BEP_00
     400000: b_collar
     400002: b_hair_a01
     400004: b_hair_a02
@@ -152,105 +158,124 @@ ModelImporter:
     400044: b_mant02
     400046: b_mant03
     400048: b_mant04
-    400050: belt
-    400052: body
-    400054: //RootNode
-    400056: chr0001_mesh
-    400058: f_hair01
-    400060: f_hair02
-    400062: f_hair03
-    400064: f_hair04
-    400066: f_hair05
-    400068: head
-    400070: holster
-    400072: joint
-    400074: l_arm01
-    400076: l_arm02
-    400078: l_arm_sub
-    400080: l_armarmor
-    400082: l_breast
-    400084: l_collar
-    400086: l_foot
-    400088: l_hair_a01
-    400090: l_hair_a02
-    400092: l_hair_b01
-    400094: l_hair_b02
-    400096: l_hair_b03
-    400098: l_hand
-    400100: l_index01
-    400102: l_index02
-    400104: l_index03
-    400106: l_leg01
-    400108: l_leg02
-    400110: l_mant01
-    400112: l_mant02
-    400114: l_mant03
-    400116: l_mant04
-    400118: l_mant05
-    400120: l_mant06
-    400122: l_mant07
-    400124: l_mant08
-    400126: l_middle01
-    400128: l_middle02
-    400130: l_middle03
-    400132: l_pinky01
-    400134: l_pinky02
-    400136: l_pinky03
-    400138: l_ring01
-    400140: l_ring02
-    400142: l_ring03
-    400144: l_shoulder
-    400146: l_thumb01
-    400148: l_thumb02
-    400150: l_thumb03
-    400152: l_toe
-    400154: mant
-    400156: mesh
-    400158: neck
-    400160: outline
-    400162: r_arm01
-    400164: r_arm02
-    400166: r_arm_sub
-    400168: r_breast
-    400170: r_collar
-    400172: r_foot
-    400174: r_hair_a01
-    400176: r_hair_a02
-    400178: r_hair_b01
-    400180: r_hair_b02
-    400182: r_hair_b03
-    400184: r_hand
-    400186: r_index01
-    400188: r_index02
-    400190: r_index03
-    400192: r_leg01
-    400194: r_leg02
-    400196: r_middle01
-    400198: r_middle02
-    400200: r_middle03
-    400202: r_pinky01
-    400204: r_pinky02
-    400206: r_pinky03
-    400208: r_ring01
-    400210: r_ring02
-    400212: r_ring03
-    400214: r_shoulder
-    400216: r_thumb01
-    400218: r_thumb02
-    400220: r_thumb03
-    400222: r_toe
-    400224: sheath01
-    400226: sheath02
-    400228: spine01
-    400230: spine02
-    400232: spine03
-    400234: weapon_a01
-    400236: weapon_b01
-    400238: weapon_b02
-    400240: weapon_b03
-    400242: weapon_c01
-    4300000: outline
-    4300002: chr0001_mesh
+    400050: b_mant05
+    400052: b_mant06
+    400054: belt
+    400056: body
+    400058: body_COL
+    400060: //RootNode
+    400062: chr0001_mesh
+    400064: EFF_01
+    400066: EFF_02
+    400068: EFF_03
+    400070: EFF_04
+    400072: f_hair01
+    400074: f_hair02
+    400076: f_hair03
+    400078: f_hair04
+    400080: f_hair05
+    400082: head
+    400084: HEFF_01
+    400086: holster
+    400088: joint
+    400090: l_arm01
+    400092: l_arm02
+    400094: l_arm_sub
+    400096: l_armmant
+    400098: l_breast
+    400100: l_collar
+    400102: l_foot
+    400104: l_hair_a01
+    400106: l_hair_a02
+    400108: l_hair_b01
+    400110: l_hair_b02
+    400112: l_hair_b03
+    400114: l_hand
+    400116: l_hand_w
+    400118: l_index01
+    400120: l_index02
+    400122: l_index03
+    400124: l_leg01
+    400126: l_leg02
+    400128: l_middle01
+    400130: l_middle02
+    400132: l_middle03
+    400134: l_pinky01
+    400136: l_pinky02
+    400138: l_pinky03
+    400140: l_ring01
+    400142: l_ring02
+    400144: l_ring03
+    400146: l_shoulder
+    400148: l_shoulder_armmor
+    400150: l_thumb01
+    400152: l_thumb02
+    400154: l_thumb03
+    400156: l_toe
+    400158: mesh
+    400160: neck
+    400162: outline
+    400164: r_arm01
+    400166: r_arm02
+    400168: r_arm_sub
+    400170: r_armmant
+    400172: r_breast
+    400174: r_collar
+    400176: r_foot
+    400178: r_hair_a01
+    400180: r_hair_a02
+    400182: r_hair_b01
+    400184: r_hair_b02
+    400186: r_hair_b03
+    400188: r_hand
+    400190: r_hand_w
+    400192: r_index01
+    400194: r_index02
+    400196: r_index03
+    400198: r_leg01
+    400200: r_leg02
+    400202: r_middle01
+    400204: r_middle02
+    400206: r_middle03
+    400208: r_pinky01
+    400210: r_pinky02
+    400212: r_pinky03
+    400214: r_ring01
+    400216: r_ring02
+    400218: r_ring03
+    400220: r_shoulder
+    400222: r_shoulder_armmor
+    400224: r_thumb01
+    400226: r_thumb02
+    400228: r_thumb03
+    400230: r_toe
+    400232: sheath01
+    400234: sheath02
+    400236: spine01
+    400238: spine02
+    400240: spine03
+    400242: weapon_A
+    400244: weapon_B
+    400246: weapon_C
+    400248: WEP_L
+    400250: WEP_R
+    400252: WEP_W
+    400254: WEP_w01
+    400256: WEP_w02
+    400258: BEP_00
+    2100000: chr0001_b01
+    2100002: chr0001_b02
+    2100004: chr0001_w02
+    2100006: chr0001_w01
+    2100008: chr0001_f01
+    2100010: chr0001_h01
+    2100012: line01_M
+    2100014: COL_M
+    2300000: body_COL
+    3300000: body_COL
+    4300000: chr0001_mesh
+    4300002: outline
+    4300004: body_COL
     9500000: //RootNode
     13700000: chr0001_mesh
     13700002: outline
@@ -258,23 +283,28 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: COL_M
+    second: {fileID: 2100000, guid: e79f170bd28edbf4e955f1a6f2a048c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: chr0001_b01
-    second: {fileID: 2100000, guid: f4d1299d1a0bbf84590a8d0ea76785ce, type: 2}
+    second: {fileID: 2100000, guid: 192a644924281f44f8a0103918bd1479, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: chr0001_b02
-    second: {fileID: 2100000, guid: fcb5181a8421da8449d41595b49dd139, type: 2}
+    second: {fileID: 2100000, guid: 192a644924281f44f8a0103918bd1479, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: chr0001_f01
-    second: {fileID: 2100000, guid: 7c77bac6c50a0a046b162882a89dd3a3, type: 2}
+    second: {fileID: 2100000, guid: a747fc45fbbf12748a55d6fb8a9ef55f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: chr0001_h01
-    second: {fileID: 2100000, guid: 2b7c0a2b47f69244ba3a1aeeccd733e7, type: 2}
+    second: {fileID: 2100000, guid: af983178fdc575845b67491cbc35a375, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -284,17 +314,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: chr0001_w02
-    second: {fileID: 2100000, guid: 0beb12926c7911548a16b2e732021604, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: chr0001_w03
-    second: {fileID: 2100000, guid: c013d8677db599c4ba1ab59c2bf3ae04, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: chr0001_w04
-    second: {fileID: 2100000, guid: db5ee7419b6a3a446aa59bd53653b272, type: 2}
+    second: {fileID: 2100000, guid: feba6f3d9b1e41948b26039debc05d90, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -304,7 +324,7 @@ ModelImporter:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -318,6 +338,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -342,11 +363,15 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
