@@ -1,9 +1,7 @@
 fileFormatVersion: 2
-guid: ee4f45542eab1184ca1b00f01c4372c7
+guid: 386f2d1d280056341a037a81b665db20
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: player_health_0
-    21300002: player_health_1
+  fileIDToRecycleName: {}
   externalObjects: {}
   serializedVersion: 6
   mipmaps:
@@ -42,7 +40,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -106,51 +104,11 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: player_health_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 38
-        width: 463
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 20fe7ddd2001fe641be7f7245c3fc292
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_health_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 5
-        width: 463
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 02387e40fd344e84aacef320d1358bd9
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: e736a1f048df6ab438d3cbf8c4a4d1ef
+    spriteID: 
     vertices: []
     indices: 
     edges: []
