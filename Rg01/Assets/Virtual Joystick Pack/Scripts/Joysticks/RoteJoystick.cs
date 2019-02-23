@@ -20,7 +20,7 @@ public class RoteJoystick : MonoBehaviour {
 			Camera.transform.localRotation.z,
 			Camera.transform.localRotation.w);
 
-		VariableJoystick.JoysticSubject
+		VariableJoystick.JoysticStateAsObservable()
 			.Where(x=>!x)
 			.Subscribe(_=>
 			{

@@ -12,7 +12,9 @@ public class VariableJoystick : Joystick
     Vector2 joystickCenter = Vector2.zero;
 
 	public bool isJoysticState = false;
-	public Subject<bool> JoysticSubject = new Subject<bool>();
+
+	readonly Subject<bool> _onJoysticState = new Subject<bool>();
+	public IObservable<bool> JoysticStateAsObservable() { return _onJoysticState; }
 
 	public Vector2 JoystickPos { get { return handle.anchoredPosition; } }
 
@@ -51,7 +53,7 @@ public class VariableJoystick : Joystick
             joystickCenter = eventData.position;
         }
 		isJoysticState = true;
-		JoysticSubject.OnNext(true);
+		_onJoysticState.OnNext(true);
 	}
 
     public override void OnPointerUp(PointerEventData eventData)
@@ -63,7 +65,7 @@ public class VariableJoystick : Joystick
         inputVector = Vector2.zero;
         handle.anchoredPosition = Vector2.zero;
 		isJoysticState = false;
-		JoysticSubject.OnNext(false);
+		_onJoysticState.OnNext(false);
 	}
 
 	void OnFixed()
